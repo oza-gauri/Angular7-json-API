@@ -1,0 +1,55 @@
+button{
+    background: rgb(1, 29, 51);
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+h2{
+    text-align: center;
+}
+ table {
+     margin-top: 50px;
+     margin-left: 425px;
+ } 
+ img {
+     border-radius: 100%;
+     width: 80px ;
+     height: 80px;
+     margin-right: 15px;
+ }
+ .logoutBtn {
+     margin-top: 50px;
+     text-align: right;
+     margin: -50px 70px 0 0; 
+ }
+ .feedbackBtn{
+    margin-top: 80px;
+    margin-left: 500px;    
+ }
+ .feedbackBtn button{
+    margin-left: 50px; 
+    width: 25%;
+    font-size: 20px;
+ }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+ }
+li {    
+    list-style: none;
+}
+li img {
+    margin-left: 500px;
+    
+}
+ul .name {
+    margin-left: 600px;
+    margin-top: -55px;
+}

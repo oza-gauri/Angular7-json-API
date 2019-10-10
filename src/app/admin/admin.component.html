@@ -1,0 +1,35 @@
+<div style="text-align:center">
+    <h1>
+      Welcome Admin!
+    </h1>
+<!--Logout Button-->
+    <div class="logoutBtn">  
+        <p>
+           <button (click)="logout()">
+             Click to Logout!
+           </button>
+       </p>
+    </div>
+           
+     </div>
+      <h2>List of users</h2>
+<!--Displaying list of users-->      
+  <ul *ngFor="let user of users">      
+      <li><img [src]="user.avatar"></li>  
+          <div class="name">
+              <li> {{ user.first_name}} {{ user.last_name }}</li>
+              <li>{{ user.email }} </li>
+          </div>
+   </ul>
+   <div class="feedbackBtn">
+     <h3>Give a feedback. Click below</h3>
+    <button routerLink="/register" routerLinkActive="active">Feedback Form</button>
+  </div> 
+<!--Footer-->   
+<div class="footer">    
+    <p>&copy; Copyright 2019 All rights reserved.</p>
+</div>
+  
+
+
+     
